@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Digital Store</title>
+    <link rel="shortcut icon" href="./assets/logo-digital.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="px-28 py-10">
+        <div class="flex items-center justify-between">
+            <div class="flex gap-2">
+                <img src="./assets/logo-digital.svg" alt="logo Digital College">
+                <h1 class="text-4xl text-(--primary-color) font-semibold">Digital Store</h1>
+            </div>
+
+            <input type="text" placeholder="Pesquisar produto..."
+                class="bg-(--light-gray3) py-2 px-4 rounded-lg bg-[url('/assets/icone-pesquisa.svg')] bg-no-repeat bg-right 
+                focus:placeholder-transparent focus:border-pink-500 focus:outline focus:outline-pink-500 w-96" />
+
+            <div>
+                <a href="#" class="bg-(--primary-color) text-white rounded-lg px-7 py-3 font-bold text-sm">
+                    Entrar
+                </a>
+            </div>
+
+            <div class="relative">
+                <img src="/assets/icone-carrinho.svg" alt="imagem do carrinho">
+                <div class="flex justify-center items-center absolute bg-(--tertiary-color) text-white font-bold text-xs rounded-full 
+                    w-5 h-5 bottom-4 left-2">
+                    2
+                </div>
+            </div>            
+        </div>
+       
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Produtos</a></li>
+                <li><a href=""> Categorias</a></li>
+                <li><a href="">Meus Pedidos</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+</body>
+</html>
